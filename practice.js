@@ -127,7 +127,7 @@ function select(x) {
     select = document.getElementById("selectCF");
     playerSelect = CF;
   }
-  if (x === 14) {
+  else if (x === 14) {
     select = document.getElementById("subGK");
     playerSelect = GK;
   } else if (x === 15) {
@@ -168,7 +168,7 @@ function select(x) {
     playerSelect = CF;
   }
   if (select.length === 1) {
-    for (i = 0; i < playerSelect.length; i += 1) {
+    for (i = 0; i < playerSelect.length; i ++) {
       option = document.createElement("option");
       option.value = option.text = playerSelect[i];
       select.add(option);
