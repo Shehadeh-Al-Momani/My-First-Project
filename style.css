@@ -1,0 +1,284 @@
+body {
+  background-color: rgb(30, 49, 68);
+  display: grid;
+  grid-template-columns: 1fr 3fr 1.1fr;
+}
+
+.childOne {
+  display: grid;
+  grid-template-rows: 1fr 6fr 1fr 6fr;
+  background-color: rgb(36, 5, 36);
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+.childTwo {
+  text-align: center;
+   background-color: rgba(4, 163, 57, 0.719);
+}
+
+.childThree {
+  display: grid;
+  background-color: rgb(249, 252, 251);
+}
+
+#coash,#team,.select {
+  background-color: rgb(161, 64, 161);
+  border: 1px solid #fff;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  transition: width 3s;
+}
+
+#coash:hover,#team:hover,.select:hover {
+  width: 100px;
+}
+
+#selectPicTeam {
+  height: 263px;
+  width: 230px;
+  border-radius: 360px;
+}
+
+#selectPicCoash {
+  height: 263px;
+  width: 230px;
+  border-radius: 360px;
+}
+
+.Staduim {
+  height: 100vh;
+  border: 3px solid #fff;
+  max-width: 100%;
+}
+
+.positionGK {
+  background-color: black;
+  color: rgba(221, 200, 9, 0.795);
+  font-size: 11px;
+}
+
+.positionB {
+  background-color: black;
+  color: rgb(34, 181, 240);
+  font-size: 11px;
+}
+
+.positionM {
+  background-color: black;
+  color: rgb(9, 245, 9);
+  font-size: 11px;
+}
+
+.positionF {
+  background-color: black;
+  color: red;
+  font-size: 11px;
+}
+ 
+
+#sub {
+  grid-template-columns: 1fr;
+  background-color: rgb(36, 5, 36);
+  color: rgb(173, 6, 173);
+  font: 18px;
+  font-weight: bold;
+  transition: width 2s;
+}
+
+#sub:hover {
+  height: 100px;
+}
+
+.player {
+  background-color: black;
+  font-size: 12px;
+  margin: 4px 2px;
+  padding: 5px 10px;
+  border-radius: 20%;
+  position: absolute;
+  text-align-last:center;
+
+}
+
+#playerGK {
+  color: rgba(221, 200, 9, 0.795);
+  bottom: 3%;
+  left: 47.4%;
+}
+
+#playerCB1 {
+  color: rgb(34, 181, 240);
+  bottom: 20%;
+  left: 53.5%;
+}
+
+#playerCB2 {
+  color: rgb(34, 181, 240);
+  bottom: 20%;
+  left: 41%;
+}
+
+#playerRB {
+  color: rgb(34, 181, 240);
+  bottom: 30%;
+  left: 59%;
+}
+
+#playerLB {
+  color: rgb(34, 181, 240);
+  bottom: 30%;
+  left: 36%;  
+}
+
+#playerDM {
+  color: rgb(9, 245, 9);
+  bottom: 40%;
+  left: 47.4%;  
+  visibility: visible;
+}
+
+#playerCM1 {
+  color: rgb(9, 245, 9);  
+  bottom: 50%;
+  left: 41%;  
+}
+
+#playerAM {
+  color: rgb(9, 245, 9); 
+  bottom: 58%;
+  left: 53.5%;  
+  visibility: visible;
+}
+
+#playerRW {
+  color: red;  
+  bottom: 67%;
+  left: 59%;  
+}
+
+#playerLW {
+  color: red;  
+  bottom: 67%;
+  left: 36%;  
+}
+
+#playerCF {
+  color: red;  
+  bottom: 71%;
+  left: 47.6%;  
+}
+
+#playerCM2 {
+  color: rgb(9, 245, 9);
+  left: 53.5%;
+  bottom: 50%;
+  visibility: hidden;
+}
+
+#playerSS {
+  color: red;
+  bottom: 62.5%;
+  left: 47.6%;  
+  visibility: hidden;
+}
+
+.selectPlayer{  
+  background-color: rgb(249, 252, 251);
+  font-stretch: unset;
+  font-size: 11px;
+  font-weight: bold;
+  position: absolute;
+  text-align-last:center;
+}
+
+#selectGK {
+  bottom: 8.5%;
+  left: 45.45%;
+}
+
+#selectCB1 {
+  bottom: 25%;
+  left: 51.5%;
+}
+
+#selectCB2 {
+  bottom: 25%;
+  left: 38.5%;
+}
+
+#selectRB {
+  bottom: 35%;
+  left: 56%;
+}
+
+#selectLB {
+  bottom: 35%;
+  left: 34%;
+}
+
+#selectDM {
+  bottom: 45%;
+  left: 45%;
+  visibility: visible;
+}
+
+#selectCM1 {
+  bottom: 55.1%;
+  left: 39%;
+}
+
+#selectCM2 {
+  bottom: 55.1%;
+  left: 51.5%;
+  visibility: hidden;
+}
+
+#selectAM {
+  bottom: 63%;
+  left: 52%;
+  visibility: visible;
+}
+
+#selectRW {
+  bottom: 72%;
+  left: 57%;
+}
+
+#selectLW {
+  bottom: 72%;
+  left: 34%;
+}
+
+#selectSS {
+  bottom: 67.5%;
+  left: 45%;
+  visibility: hidden;
+  }
+
+#selectCF {
+  bottom: 76%;
+  left: 45%;
+  }
+
+  .PresetTactics {
+    width: 120px;
+    height: 120px;
+    bottom: 78%;
+    left: 68%;
+    position : absolute;
+  }
+
+.PresetTactics img {
+    width:100% ;
+    height: 100%;
+  }
+#seletTactics{
+  bottom: 74.6%;
+  left: 68%;
+  width: 120px;
+  position : absolute;
+  text-align-last:center;
+}
+ 

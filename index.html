@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Team Plan </title>
+  </head>
+
+  <body>
+    <div class="childOne">
+      <div>
+        <button class="select">Team</button>
+        <select id="team" onchange="team()">
+          <option>FC BARCELONA</option>
+          <option>BAYERN MUNCHEN</option>
+          <option>REAL MADRID</option>
+        </select>
+      </div>
+
+      <div class="pic">
+        <img
+          id="selectPicTeam"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRTzQFW7xORH-BmQT_fW1xNfgdqH8qjOZom2g&usqp=CAU"
+          alt=""
+        />
+      </div>
+
+      <div id="select">
+        <button class="select">coach</button>
+        <select id="coash" onchange="coash()">
+          <option>Zinedin zidan</option>
+          <option>Hansi flick</option>
+          <option>Jürgen Klopp</option>
+        </select>
+      </div>
+
+      <div class="pic">
+        <img
+          id="selectPicCoash"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTYCZTkB4NzLq_ywY7oy5O-2Js71D_7w9u2zw&usqp=CAU"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div class="childTwo">
+      <div class="Staduim">
+        <img
+          class="Staduim"
+          src="green.png"
+          alt="Staduim"
+          name="Staduim"
+        />
+        <div>
+          <button class="PresetTactics" > <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSP0LayFoZ0-tXppgabIODeK7LG4a9g6wP2EA&usqp=CAU" alt=""> </button>
+          <select id="seletTactics" onclick="seletTactics()" >
+            <option>4-2-1-3</option>
+            <option>4-3-3</option>
+            <option>4-2-4</option>
+          </select>
+        </div>
+        <div>
+          <div class = "player" id="playerGK">GK</div>
+          <div class = "player" id="playerCB1">CB</div>
+          <div class = "player" id="playerCB2">CB</div>
+          <div class = "player" id="playerRB">RB</div>
+          <div class = "player" id="playerLB">LB</div>
+          <div class = "player" id="playerDM">DM</div>
+          <div class = "player" id="playerCM1">CM</div>
+          <div class = "player" id="playerCM2">CM</div>
+          <div class = "player" id="playerAM">AM</div>
+          <div class = "player" id="playerRW">RW</div>
+          <div class = "player" id="playerLW">LW</div>
+          <div class = "player" id="playerSS">SS</div>
+          <div class = "player" id="playerCF">CF</div>
+       
+          <div>
+            <select class="selectPlayer" id="selectGK" onclick="select(1)">
+              <option>Manuel Neuer</option>
+            </select>
+          </div>
+
+          <div>
+            <select class="selectPlayer" id="selectCB1" onclick="select(2)">
+              <option>Sergio Ramos</option>
+            </select>
+          </div>
+
+          <div>
+            <select class="selectPlayer" id="selectCB2" onclick="select(3)">
+              <option>Virgil van Dijk</option>
+            </select>
+          </div>
+
+          <div>
+            <select class="selectPlayer" id="selectRB" onclick="select(4)">
+              <option>Joshua Kimmich</option>
+            </select>
+          </div>
+
+          <div>
+            <select class="selectPlayer" id="selectLB" onclick="select(5)">
+              <option>Alphonso Davies</option>
+            </select>
+          </div>
+
+          <div>
+            <select class="selectPlayer" id="selectDM" onclick="select(6)">
+              <option>Carlos Casemiro</option>
+            </select>
+          </div>
+
+          <div>
+            <select class="selectPlayer" id="selectCM1" onclick="select(7)">
+              <option>Miralem Pjanic</option>
+            </select>
+          </div>
+
+          <div>
+            <select class="selectPlayer" id="selectCM2" onclick="select(8)">
+              <option>Luka Modrić</option>
+            </select>
+          </div>
+
+          <div>
+            <select class="selectPlayer" id="selectAM" onclick="select(9)">
+              <option>Kai Havertz</option>
+            </select>
+          </div>
+
+          <div>
+            <select class="selectPlayer" id="selectRW" onclick="select(10)">
+              <option>Lionel Messi</option>
+            </select>
+          </div>
+
+          <div>
+            <select class="selectPlayer" id="selectLW" onclick="select(11)">
+              <option>Neymar Jr.</option>
+            </select>
+          </div>
+
+          <div>
+            <select class="selectPlayer" id="selectSS" onclick="select(12)">
+              <option> Antoine Griezmann </option>
+            </select>
+          </div>
+
+          <div>
+            <select class="selectPlayer" id="selectCF" onclick="select(13)">
+              <option>Cristiano Ronaldo</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="childThree">
+      <button id="sub">Substitutions</button>
+
+      <div id="sub1">
+        <button class="positionGK">GK</button>
+        <select id="subGK" onclick="select(14)">
+          <option>Jan Oblak</option>
+        </select>
+      </div>
+
+      <div id="sub2">
+        <button class="positionB">CB</button>
+        <select id="subCB1" onclick="select(15)">      
+          <option>Gerard Pique</option>   
+        </select>
+      </div>
+      <div id="sub2">
+        <button class="positionB">CB</button>
+
+        <select id="subCB2" onclick="select(16)">
+          <option>Kalidou Koulibaly</option>
+        </select>
+      </div>
+      <div id="sub3">
+        <button class="positionB">RB</button>
+        <select id="subRB" onclick="select(17)">
+          <option>Alex-Arnold</option>
+        </select>
+      </div>
+      <div id="sub4">
+        <button class="positionB">LB</button>
+        <select id="subLB" onclick="select(18)">
+          <option>Robertson</option>
+        </select>
+      </div>
+      <div id="sub5">
+        <button class="positionM">DM</button>
+        <select id="subDM" onclick="select(19)">
+          <option>Declan Rice</option>
+        </select>
+      </div>
+      <div id="sub6">
+        <button class="positionM">CM</button>
+        <select id="subCM1" onclick="select(20)">
+          <option>Thomas Partey</option>
+        </select>
+      </div>
+      <div id="sub12">
+        <button class="positionM">CM</button>
+        <select id="subCM2" onclick="select(21)">
+          <option>Thiago Alcantra</option>
+        </select>
+      </div>
+      <div id="sub7">
+        <button class="positionM">AM</button>
+        <select id="subAM" onclick="select(22)">
+          <option>Bruno Fernandes</option>
+        </select>
+      </div>
+      <div id="sub8">
+        <button class="positionF">RW</button>
+        <select id="subRW" onclick="select(23)">
+          <option>Kylian Mbappé</option>
+        </select>
+      </div>
+      <div id="sub9">
+        <button class="positionF">LW</button>
+        <select id="subLW" onclick="select(24)">
+          <option>Eden Hazard</option>
+        </select>
+      </div>
+      <div id="sub10">
+        <button class="positionF">SS</button>
+        <select id="subSS" onclick="select(25)">
+          <option>Thomas Müller</option>
+        </select>
+      </div>
+      <div id="sub11">
+        <button class="positionF">CF</button>
+
+        <select id="subCF" onclick="select(26)">
+          <option>Robert Lewandowski</option>
+        </select>
+      </div>
+    </div>
+
+    <script src="practice.js"></script>
+  </body>
+</html>
