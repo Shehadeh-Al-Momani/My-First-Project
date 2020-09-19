@@ -36,8 +36,8 @@ body {
 }
 
 #selectPicTeam {
-  height: 263px;
-  width: 230px;
+  height: 240px;
+  width: 130px;
   border-radius: 360px;
 }
 
@@ -141,7 +141,7 @@ body {
 
 #playerCM1 {
   color: rgb(9, 245, 9);  
-  bottom: 50%;
+  bottom: 47%;
   left: 41%;  
 }
 
@@ -173,7 +173,7 @@ body {
 #playerCM2 {
   color: rgb(9, 245, 9);
   left: 53.5%;
-  bottom: 50%;
+  bottom: 47%;
   visibility: hidden;
 }
 
@@ -225,12 +225,12 @@ body {
 }
 
 #selectCM1 {
-  bottom: 55.1%;
+  bottom: 52.1%;
   left: 39%;
 }
 
 #selectCM2 {
-  bottom: 55.1%;
+  bottom: 52.1%;
   left: 51.5%;
   visibility: hidden;
 }
